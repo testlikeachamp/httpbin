@@ -28,10 +28,10 @@ setup(
          'License :: OSI Approved :: MIT License',
          'Programming Language :: Python',
          'Programming Language :: Python :: 2.7',
-         'Programming Language :: Python :: 3.4',
+         'Programming Language :: Python :: 3.6',
     ],
     packages=find_packages(),
-    include_package_data = True, # include files listed in MANIFEST.in
+    include_package_data=True,  # include files listed in MANIFEST.in
     install_requires=[
         'Flask', 'MarkupSafe', 'decorator', 'itsdangerous', 'six', 'brotlipy',
         'raven[flask]', 'flask_limiter', 'Flask-Common'

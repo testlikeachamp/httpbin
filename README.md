@@ -1,10 +1,6 @@
 # httpbin(1): HTTP Request & Response Service
 
 
-A [Kenneth Reitz](http://kennethreitz.org/bitcoin) Project.
-
-![ice cream](http://farm1.staticflickr.com/572/32514669683_4daf2ab7bc_k_d.jpg)
-
 See http://httpbin.org for more information.
 
 ## Officially Deployed at:
@@ -22,3 +18,15 @@ See http://httpbin.org for more information.
 - https://www.hurl.it
 - http://requestb.in
 - http://python-requests.org
+
+
+## Run the app locally
+
+```
+export FLASK_APP=httpbin/core.py
+export FLASK_DEBUG=1
+python3 -m flask run
+```
+By default the app will run on port 5000.
+So just open browser and got to http://127.0.0.1:5000.
+Or better hit the api with requests!

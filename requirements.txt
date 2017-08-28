@@ -1,0 +1,12 @@
+brotli
+gunicorn
+decorator
+brotlipy
+gevent
+Flask
+Flask-Common
+meinheld
+six
+werkzeug
+raven
+requests
